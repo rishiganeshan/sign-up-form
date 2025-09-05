@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
 }
 
 @font-face {
@@ -9,11 +10,14 @@
 
 .container {
     display: flex;
+    
 }
 
 
 .fern {
-    width: 700px;
+    height: 100vh;
+    
+    /* width: 700px; */
 
 }
 
@@ -21,18 +25,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .logo-container {
     width: 100%;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.494);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 200px;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    /* flex-grow: 1; */
 }
 
 .logo-image {
@@ -49,6 +53,12 @@
 
 .image {
     position: relative;
+}
+
+div.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 form {
