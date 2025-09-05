@@ -66,12 +66,16 @@ form {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: white;
+    flex-grow: 1;
     
 }
 
 .sales-text,
 .submission {
     background-color: antiquewhite;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
 }
 
 form > * {
