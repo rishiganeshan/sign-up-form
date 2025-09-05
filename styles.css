@@ -78,6 +78,11 @@ form {
     flex-direction: column;
 }
 
+.sales-text {
+    padding-left: 35px;
+    padding-top: 80px;
+}
+
 form > * {
     display: flex;
 }
