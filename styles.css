@@ -67,6 +67,8 @@ form {
     flex-direction: column;
     background-color: white;
     flex-grow: 1;
+    padding-top: 10px;
+    gap: 10px;
     
 }
 
@@ -78,8 +80,13 @@ form {
     flex-direction: column;
 }
 
-.sales-text {
+.sales-text,
+form,
+.submission {
     padding-left: 35px;
+}
+
+.sales-text {
     padding-top: 80px;
 }
 
@@ -89,7 +96,20 @@ form > * {
 
 input[type="submit"] {
     background-color: #596D48;
-    color: white
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.submission {
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
 }
 
 
