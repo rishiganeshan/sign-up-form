@@ -5,3 +5,27 @@
 img {
     width: 700px;
 }
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+.sales-text,
+.submission {
+    background-color: antiquewhite;
+}
+
+form > * {
+    display: flex;
+}
+
+input[type="submit"] {
+    background-color: #596D48;
+    color: white
+}
+
+
